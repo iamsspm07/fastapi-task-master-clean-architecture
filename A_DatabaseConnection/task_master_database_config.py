@@ -8,7 +8,7 @@ DB_HOST = "localhost"
 DB_PORT = 5432
 DB_NAME = "task_database"
 DB_USER = "postgres"
-DB_PASSWORD = quote_plus("Sujitmaity@143")
+DB_PASSWORD = quote_plus("***Your Database Pasword***")
 DB_ECHO = False
 
 # DATABASE CONNECTION URL PARAMETERS: POSTGRESQL
@@ -39,4 +39,5 @@ def database_connection():
         database.close()
 
 # CONNECTING PYTHON CLASS WITH DATABASE TABLE
+
 BASE = declarative_base()
